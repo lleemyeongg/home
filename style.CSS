@@ -1,0 +1,103 @@
+* {
+	letter-spacing: 0.2px;
+	line-height: 1.7;
+	word-break: keep-all;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("text/tree2.jpg");
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100vw auto;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-aspect-ratio: 3/2) {
+	body {
+		background-size: auto 100vh;
+	}
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+
+	width: 90vw;
+	height: 95vh;
+
+	margin: 30px;
+}
+
+section {
+	border-radius: 30px;
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin: 30px;
+	color: black;
+	border-radius: 30px;
+	padding: 30px;
+	padding-left: 60px;
+	padding-right: 60px;
+	font-size: 70px;
+
+}
+
+h2 {
+	color: black;
+	font-size: 35px;
+}
+
+p{
+	color: black;
+	width: 900px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+}
+
+ol {
+	list-style: none;
+}
+
+.ppp1 {
+	background-image: url("img/basket.jpg");
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+	section {
+	border-radius: 30px;
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+
+	img {
+		width: 200px;
+		height: 200px;
+	}
+
+	p {
+		width: 300px;
+	}
+
+}
